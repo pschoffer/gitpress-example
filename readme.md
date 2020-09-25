@@ -44,6 +44,20 @@ WordPress can ![import from a number of systems](https://wordpress.org/support/a
 - ![HTTPS](https://wordpress.org/news/2016/12/moving-toward-ssl/) support;
 - A link to ![wordpress.org](https://wordpress.org/) on your site.
 
+## Online Resources
+If you have any questions that aren't addressed in this document, please take advantage of WordPress-numerous online resources:
+
+- ![The WordPress Codex](https://codex.wordpress.org/)
+	- The Codex is the encyclopedia of all things WordPress. It is the most comprehensive source of information for WordPress available.
+- ![The WordPress Blog](https://wordpress.org/news/)
+	- This is where you'll find the latest updates and news related to WordPress. Recent WordPress news appears in your administrative dashboard by default.
+- ![WordPress Planet](https://planet.wordpress.org/)
+	- The WordPress Planet is a news aggregator that brings together posts from WordPress blogs around the web.
+- ![Support Forums](https://wordpress.org/support/forums/)
+	- If you've looked everywhere and still can't find an answer, the support forums are very active and have a large community ready to help. To help them help you be sure to use a descriptive thread title and describe your question in as much detail as possible.
+- ![<abbr>IRC</abbr> (Internet Relay Chat) Channel](https://codex.wordpress.org/IRCWordPress)
+	- There is an online chat channel that is used for discussion among people who use WordPress and occasionally support topics. The above wiki page should point you in the right direction. (irc://irc.freenode.net/wordpress>irc.freenode.net #wordpress)
+
 
 ## Final Notes
 
@@ -54,7 +68,7 @@ WordPress can ![import from a number of systems](https://wordpress.org/support/a
 ## Share the Love
 WordPress has no multi-million dollar marketing campaign or celebrity sponsors, but we do have something even better-you. If you enjoy WordPress please consider telling a friend, setting it up for someone less knowledgable than yourself, or writing the author of a media article that overlooks us.
 
-WordPress is the official continuation of <a href="http://cafelog.com/">b2/caf&#233;log</a>, which came from Michel V. The work has been continued by the <a href="https://wordpress.org/about/">WordPress developers</a>. If you would like to support WordPress, please consider <a href="https://wordpress.org/donate/">donating</a>.
+WordPress is the official continuation of ![cafélog](http://cafelog.com/), which came from Michel V. The work has been continued by the ![WordPress developers](https://wordpress.org/about/). If you would like to support WordPress, please consider ![donating](https://wordpress.org/donate/).
 
 ## License
 WordPress is free software, and is released under the terms of the <abbr>GPL</abbr> (GNU General Public License) version 2 or (at your option) any later version. See ![license.txt](license.txt).
