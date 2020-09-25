@@ -62,7 +62,7 @@ If you have any questions that aren't addressed in this document, please take ad
 ## Final Notes
 
 - If you have any suggestions, ideas, or comments, or if you (gasp!) found a bug, join us in the ![Support Forums](https://wordpress.org/support/forums/);
-- WordPress has a robust plugin <abbr>API</abbr> (Application Programming Interface) that makes extending the code easy. If you are a developer interested in utilizing this, see the ![Plugin Developer Handbook](https://developer.wordpress.org/plugins/). You shouldn't modify any of the core code.
+- WordPress has a robust plugin API (Application Programming Interface) that makes extending the code easy. If you are a developer interested in utilizing this, see the ![Plugin Developer Handbook](https://developer.wordpress.org/plugins/). You shouldn't modify any of the core code.
 
 
 ## Share the Love
