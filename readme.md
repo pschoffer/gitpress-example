@@ -4,6 +4,8 @@ The objective here is to create example project for the ![Gitpress platform](htt
 Its very easy to install and you can try it easily home.
 
 ## Instalation
+
+ ### Manual Instalation  	
  - Unzip the package in an empty directory and upload everything;
  - Open `wp-admin/install.php` in your browser. It will take you through the process to set up a `wp-config.php` file with your database connection details;
     - If for some reason this doesn't work, don't worry. It doesn't work on all web browsers. Open up `wp-config-example.php` with a text editor like WordPad or similar and fill in your database connection details;
@@ -12,6 +14,35 @@ Its very easy to install and you can try it easily home.
 - Once the configuration file is set up, the installer will set up the tables needed for your site. If there is an error, double check your `wp-config.php` file, and try again. If it fails again, please go to the ![WordPress support forums](https://wordpress.org/support/forums/) with as much data as you can gather;  
 - **If you did not enter a password, note the password given to you** If you did not provide a username, it will be `admin`;
 - The installer should then send you to the ![login page](wp-login.php). Sign in with the username and password you chose during the installation. If a password was generated for you, you can then click on `Profile` to change the password.
+
+ ### Using Docker container
+  You can start by fetching the example project.
+
+ ```
+  docker run -p 80:80 -d \
+     --env "GITPRESS_MODE=FETCH" \
+     --env "WORDPRESS_URL=http://localhost/" \
+     --env "GIT_ORIGIN=github.com/pschoffer/gitpress-example.git" \
+     pschoffer/gitpress
+ ```
+
+Docker compose version:
+
+ ```
+ version: '3.1'
+
+ services:
+   gitpress:
+     image: pschoffer/gitpress
+     ports:
+       - 80:80
+     environment:
+       GITPRESS_MODE: FETCH
+       WORDPRESS_URL: http://localhost/
+       GIT_ORIGIN: github.com/pschoffer/gitpress-example.git
+ ```
+
+The admin login credentials are `gitpress:pass`		
 
 ## Updating
 ### Using the Automatic Updater
