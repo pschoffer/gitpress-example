@@ -40,7 +40,3 @@ The admin login credentials are `gitpress:pass`
 
 ## License
 This is a GitPress example, GitPress is free software, and is released under the terms of the <abbr>GPL</abbr> (GNU General Public License) version 2 or (at your option) any later version. See ![license.txt](license.txt).
-
-
-
-
